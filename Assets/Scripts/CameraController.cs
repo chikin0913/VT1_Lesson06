@@ -24,7 +24,7 @@ public class CameraController : MonoBehaviour
     {
         Position = transform.position;
 
-        Angles.x = Mathf.Clamp(Angles.x, 0, 0);@
+        Angles.x = Mathf.Clamp(Angles.x, 0, 0);
     }
 
     void LateUpdate()
